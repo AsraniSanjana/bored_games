@@ -120,7 +120,7 @@ def calculate_scores(room_code):
         # Assign points based on the number of occurrences
         for word, count in word_count.items():
             if count == 2:
-                points = 15
+                points = 3
             elif count > 2:
                 points = 1
             else:
