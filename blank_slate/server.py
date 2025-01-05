@@ -11,8 +11,8 @@ socketio = SocketIO(app, async_mode='eventlet')
 # Game data
 players = {}  # {room_code: {player_name: score}}
 rooms = {}  # {room_code: {players: [list of player names], phrases: [list of phrases], current_phrase: int, answers: []}}
-phrases = ["hand_", "_belly", "card_", "holy_", "ear_" , "black_", "_cream", "nail_", "frost_", "pink_", "baby_"]
-WORDS_PER_GAME = min(len(phrases), 11)  # Max 5 words or fewer if phrases are limited
+phrases = ["master_", "story_", "hand_", "_belly", "card_", "holy_", "ear_" , "black_", "_cream", "nail_", "frost_", "pink_", "baby_"]
+WORDS_PER_GAME = min(len(phrases), 11)  # Max no. of words or fewer if phrases are limited
 
 @socketio.on('connect')
 def on_connect():
