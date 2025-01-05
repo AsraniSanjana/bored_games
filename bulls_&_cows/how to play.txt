@@ -1,0 +1,7 @@
+Bulls and Cows is a single player n letter word guessing game which involves:
+ (make sure the input word list has n lettered words only.)
+1. computer: one who thinks of a word, basis which gives count of no. of bulls and no. of Cows
+2. player: one who has to guess the word the computer has thought of, by observing the pattern of no. of bulls and cows 
+
+the game is available in 2 modes
+1. single player who guesses the word, computer who thinks of a work
